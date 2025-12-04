@@ -44,11 +44,11 @@ while True:
             print("Modulus is:", a % b)
 
         elif choice == "6":
-            num1 = int(input("Enter number 1: "))
+            num1 = int(input("Enter value 1: "))
             if a >= 0:
                 print("Square root value is:", a ** 0.5)
             else:
-                print("Don't enter negative numbers.")
+                print("Don't enter negative value.")
 
         elif choice == "7":
             print("Exiting the calculator, thank you!")
@@ -58,4 +58,4 @@ while True:
             print("Invalid choice, try again.")
 
     except:
-        print("Invalid input! Please enter numbers only.")
+        print("Invalid input! Please enter values only.")
